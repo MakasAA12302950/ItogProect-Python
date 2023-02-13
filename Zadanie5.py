@@ -17,3 +17,7 @@ print(YA_PING.stdout)
 for line in YA_PING.stdout:
     result = chardet.detect(line)
     print(line.decode(result['encoding']))
+    
+#с установкой модуля charted возникли проблемы. 
+#Честно признаюсь переписала решение с вашего показа на семинаре, проверить его работу не могу. 
+#Как будет время вернусь к этому заданию 
